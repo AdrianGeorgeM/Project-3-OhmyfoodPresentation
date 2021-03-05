@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:bold%7CRoboto:light%7CRoboto:Regular%7CRoboto:Medium">  
+    <title>Document</title>
+</head>
+<body>
+    <header >
+        <div class="header">
+            <a href="index.html">
+                <i class="fas fa-arrow-left header__arrow" aria-hidden="true"></i>
+            </a>
+            <h1 class="header__logo">ohmyfood</h1>
+        </div>
+    </header>
+    <img src="./public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="plat" class="heroImage">
+    
+    <main class="plate">
+        <header class="plate__header">
+            <h2 class="plate__title">The Full Palette</h2>
+
+            <div class="heart">
+                <i class="far fa-heart  fa-2x heart__like heart__like--bho "></i>
+    
+                <i class="fas fa-heart  fa-2x heart__like heart__like--color "></i>
+            </div> 
+        </header>
+  
+<!-- 
+
+    <section class="subMenus">
+        <div class="submenu__container">
+         <h3 class="submenu__container--title">Entrees</h3>
+
+        <div class="submenu__container--items lag1">
+        <p class="submenu__container--name">Escargot</p>
+
+
+              <div class="ingredients">
+                  
+                <p class="ingredients--description">With southern French spices</p>
+                <p class="ingredients--preis">25€</p>
+
+                
+           <div class="ingredients__checkmark">
+          <div class="ingredients__checkmark--wrapIcon">
+            <i class="fas fa-check ingredients__checkmark--icon"></i>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+        </div>
+         
+    </section>
+ -->
+
+ <section class="submenus">
+    <div class="submenu">
+        <h3 class="submenu__title">Entrees</h3>
+
+        <div class="submenu__plate lag-1">
+            <p class="submenu__name">Foie Gras Ravioli</p>
+
+            <div class="description_preis">
+                <p class="submenu__description">With truffle cream</p>
+                <p class="submenu__price">25€</p>
+
+                <!--  -->
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="submenu__plate lag-2">
+            <p class="submenu__name">Oscietra Caviar</p>
+            <div class="description_preis">
+                <p class="submenu__description">With buckwheat blinis</p>
+                <p class="submenu__price">35€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submenu__plate lag-3">
+            <p class="submenu__name">Duck Foie Gras</p>
+            <div class="description_preis">
+                <p class="submenu__description">With fig jam and grilled baguette</p>
+                <p class="submenu__price">20€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="submenu">
+        <h3 class="submenu__title">Main Dish</h3>
+        <div class="submenu__plate lag-4">
+            <p class="submenu__name">Fresh Buttered Scallops</p>
+            <div class="description_preis">
+                <p class="submenu__description">With white celery puree</p>
+                <p class="submenu__price">40€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submenu__plate lag-5">
+            <p class="submenu__name">Ox Tail Shepard's Pie</p>
+            <div class="description_preis">
+                <p class="submenu__description">With black truffle and pureed parsnips</p>
+                <p class="submenu__price">35€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submenu__plate lag-6">
+            <p class="submenu__name">Pan-Fried Lobster</p>
+            <div class="description_preis">
+                <p class="submenu__description">With mashed sweet potatoes</p>
+                <p class="submenu__price">35€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="submenu">
+        <h3 class="submenu__title">Desserts</h3>
+        <div class="submenu__plate lag-7">
+            <p class="submenu__name">Chocolate and Hazelnut Macaroons</p>
+            <div class="description_preis">
+                <p class="submenu__description">With caramel butter ice cream</p>
+                <p class="submenu__price">18€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon" ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submenu__plate lag-8">
+            <p class="submenu__name">Baba au rhum</p>
+            <div class="description_preis">
+                <p class="submenu__description">With lemon drizzle</p>
+                <p class="submenu__price">22€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submenu__plate lag-9">
+            <p class="submenu__name">Lemon Meringue Pie</p>
+            <div class="description_preis">
+                <p class="submenu__description">Destructured</p>
+                <p class="submenu__price">23€</p>
+                <div class="submenu__checkmark">
+                    <div class="submenu__wrapIcon">
+                        <i class="fas fa-check submenu__icon" ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="btn__secondary">Order</a>
+
+</section>
+
+
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer__title">ohmyfood</p>
+        <ul class="footer__text">
+            <li class="footer__list">
+                <a class="footer__link" href="#">
+                    <i class="fa-utensils fas footer__icon" aria-hidden="true"></i>Suggest a restaurant
+                </a>
+            </li>
+            <li class="footer__list">
+                <a class="footer__link" href="#">
+                    <i class="fa-hands-helping fas footer__icon" aria-hidden="true"></i>Become a partner
+                </a>
+            </li>
+            <li class="footer__list">
+                <a class="footer__link" href="#">Legal</a>
+            </li>                
+            <li class="footer__list">
+                <a class="footer__link" href="mailto:contact@ohmyfood.fr">Contact</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
